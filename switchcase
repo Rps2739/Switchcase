@@ -1,0 +1,22 @@
+package extra;
+import java.util.*;
+
+public class Extra2 {
+
+	public static void main(String[] args) {
+		System.out.println("Choose any 1: \n 1)Hi \n 2)Hello \n 3)Hey");
+		Scanner sc=new Scanner(System.in);
+		int choice=sc.nextInt();
+		switch(choice)
+		{
+		case 1:System.out.println("Hi"); break;
+		case 2:System.out.println("Hello"); break;
+		case 3:System.out.println("Hey"); break;
+		default:System.out.println("Invalid Entry");
+		}
+
+		
+
+	}
+
+}
